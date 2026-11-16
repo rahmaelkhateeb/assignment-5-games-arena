@@ -1,0 +1,233 @@
+@media (max-width: 1199.98px) {
+  .service-card,
+  .service-image {
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section {
+    padding: 82px 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html {
+    scroll-padding-top: 72px;
+  }
+
+  .navbar {
+    min-height: 68px;
+  }
+
+  .navbar-brand {
+    font-size: 21px;
+  }
+
+  .hero {
+    padding: 62px 0 62px;
+  }
+
+  .hero h1 {
+    max-width: 620px;
+    letter-spacing: -1.7px;
+    line-height: 1.04;
+  }
+
+  .hero-copy {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    margin-top: 26px;
+  }
+
+  .hero-actions .button {
+    min-height: 50px;
+    --bs-btn-padding-x: 17px;
+    --bs-btn-font-size: 12px;
+  }
+
+  .hero-art {
+    margin-top: 63px;
+    border-radius: 17px;
+  }
+
+  .hero-art > img {
+    min-height: 230px;
+    max-height: 330px;
+    border-radius: 13px;
+  }
+
+  .player-stat {
+    left: 10px;
+    bottom: -34px;
+    min-width: 155px;
+    padding: 9px 11px;
+  }
+
+  .stat-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .hero-tag {
+    right: 9px;
+    bottom: 12px;
+    padding: 7px 9px;
+    font-size: 8px;
+  }
+
+  .section {
+    padding: 70px 0;
+  }
+
+  .section-heading .eyebrow {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(30px, 7vw, 40px);
+  }
+
+  .section-heading > p:last-child {
+    font-size: 14px;
+  }
+
+  .game-card {
+    height: 300px;
+  }
+
+  .game-card-content {
+    right: 13px;
+    bottom: 14px;
+    left: 13px;
+  }
+
+  .game-card h3 {
+    font-size: 17px;
+  }
+
+  .game-tags span {
+    padding: 4px 6px;
+    font-size: 8px;
+  }
+
+  .games-controls {
+    margin-top: 25px;
+  }
+
+  .carousel-arrow {
+    width: 44px;
+    height: 44px;
+  }
+
+  .games-controls .button {
+    min-height: 46px;
+    min-width: 165px;
+    --bs-btn-padding-x: 13px;
+    --bs-btn-font-size: 11px;
+  }
+
+  .service-card,
+  .service-image {
+    min-height: 265px;
+  }
+
+  .service-card {
+    padding: 17px 10px;
+  }
+
+  .service-icon {
+    width: 63px;
+    height: 63px;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .service-card h3 {
+    font-size: 18px;
+  }
+
+  .partner-logos img {
+    height: 45px;
+  }
+
+  .team-info {
+    min-height: 120px;
+    padding: 13px 11px;
+  }
+
+  .team-info h3 {
+    font-size: 15px;
+  }
+
+  .team-info p,
+  .team-info span {
+    font-size: 11px;
+  }
+
+  .team-alias {
+    top: 9px;
+    left: 9px;
+    font-size: 8px;
+  }
+
+  .contact-form-wrap {
+    padding: 22px 18px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .game-card {
+    height: 330px;
+  }
+
+  .service-card,
+  .service-image {
+    min-height: 205px;
+  }
+
+  .service-image {
+    height: 100%;
+  }
+
+  .service-card h3 {
+    font-size: 15px;
+  }
+
+  .service-icon {
+    width: 53px;
+    height: 53px;
+    font-size: 21px;
+  }
+
+  .team-card > img {
+    aspect-ratio: 1 / .85;
+  }
+
+  .team-info {
+    min-height: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
